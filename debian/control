@@ -1,0 +1,24 @@
+Source: r8125
+Section: non-free/kernel
+Priority: optional
+Maintainer: Hideki Yamane <henrich@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-dkms,
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
+Vcs-Browser: https://salsa.debian.org/debian/r8125
+Vcs-Git: https://salsa.debian.org/debian/r8125.git
+XS-Autobuild: yes
+Testsuite: autopkgtest-pkg-dkms
+
+Package: r8125-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Description: dkms source for the r8125 network driver
+ r8125 is the Linux 2.5G Ethernet device driver released by RealTek for their
+ network controller.
+ .
+ This package provides the dkms source code for the r8125 kernel modules.
+ Kernel source or headers are required to compile these modules.

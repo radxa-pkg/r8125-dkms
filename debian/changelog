@@ -1,0 +1,6 @@
+r8125 (9.007.01-1) experimental; urgency=medium
+
+  * Initial release (Closes: #1002611)
+    - Mostly taken from r8168 package.
+
+ -- Hideki Yamane <henrich@debian.org>  Fri, 24 Dec 2021 17:44:11 +0900
