@@ -9,4 +9,4 @@ version=4
 
 opts=searchmode=plain \
 https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software \
-GBE.Ethernet.LINUX.driver.r8125[^<]*</td>[^\d]*([\d\.]+)[^<]*</td>
+2\.5G.Ethernet.LINUX.driver.r8125[^<]*</td>[^\d]*([\d\.]+)[^<]*</td>
