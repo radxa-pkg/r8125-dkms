@@ -1,3 +1,9 @@
+r8125 (9.007.01-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Hideki Yamane <henrich@debian.org>  Sun, 13 Feb 2022 09:23:07 +0900
+
 r8125 (9.007.01-1) experimental; urgency=medium
 
   * Initial release (Closes: #1002611)
