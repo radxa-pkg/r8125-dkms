@@ -1,11 +1,11 @@
-r8125 (9.009.01-1) UNRELEASED; urgency=medium
+r8125 (9.009.01-1) unstable; urgency=medium
 
   * New upstream version 9.009.01
     - Built with Linux Kernel 5.17 (Closes: #1012014)
   * debian/control
     - Set Standards-Version: 4.6.1 with no changes
 
- -- Hideki Yamane <henrich@debian.org>  Fri, 10 Jun 2022 22:02:01 +0900
+ -- Hideki Yamane <henrich@debian.org>  Fri, 10 Jun 2022 23:01:51 +0900
 
 r8125 (9.007.01-3) unstable; urgency=medium
 
