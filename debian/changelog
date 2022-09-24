@@ -1,3 +1,10 @@
+r8125 (9.009.02-1) unstable; urgency=medium
+
+  * New upstream release 9.009.02
+    - Support Linux Kernel 5.19
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 24 Sep 2022 15:27:55 +0900
+
 r8125 (9.009.01-1) unstable; urgency=medium
 
   * New upstream version 9.009.01
