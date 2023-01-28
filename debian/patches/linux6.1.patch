@@ -1,3 +1,10 @@
+Description: Patch for > Linux6.1
+ As Linux upstraem changes to use netif_napi_add_weight() > 6.1,
+ we should define it as.
+ See https://patchwork.kernel.org/project/linux-wireless/patch/20220927132753.750069-1-kuba@kernel.org/
+Author: Hideki Yamane <henrich@debian.org>
+Forwarded: Yes (as a mail to nicfae@realtek.com)
+
 Index: r8125/src/r8125.h
 ===================================================================
 --- r8125.orig/src/r8125.h
