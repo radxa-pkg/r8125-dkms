@@ -1,1 +1,3 @@
+linux5.12.patch
 linux6.1.patch
+improve_network_stability.patch

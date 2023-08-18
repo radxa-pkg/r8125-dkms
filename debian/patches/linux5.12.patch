@@ -1,0 +1,19 @@
+Description: Patch for <= Linux 5.12
+ page_is_pfmemalloc below 5.12 defines its argument as non-const.
+ This causes build error when using on those systems.
+Author: ZHANG Yuntian <yt@radxa.com>
+Forwarded: no
+
+Index: r8125/src/r8125.h
+===================================================================
+--- r8125.orig/src/r8125.h
++++ r8125/src/r8125.h
+@@ -52,7 +52,7 @@ typedef int netdev_tx_t;
+ #endif
+ 
+ #if LINUX_VERSION_CODE < KERNEL_VERSION(5,12,0)
+-static inline bool dev_page_is_reusable(const struct page *page)
++static inline bool dev_page_is_reusable(struct page *page)
+ {
+         return likely(page_to_nid(page) == numa_mem_id() &&
+                       !page_is_pfmemalloc(page));
