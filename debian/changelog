@@ -1,3 +1,16 @@
+r8125 (9.011.00-4-1) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add Radxa patches
+  * Add GitHub workflow
+  * Fix Ubuntu compression
+  * fix: prevent compiler warning on Rockchip 6.1 kernel
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 05 Mar 2024 10:26:53 +0800
+
 r8125 (9.011.00-4) unstable; urgency=medium
 
   * debian/patches
