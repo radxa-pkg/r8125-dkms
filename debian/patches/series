@@ -2,3 +2,4 @@ linux5.12.patch
 linux-6.9.patch
 improve_network_stability.patch
 fix-fall-through.patch
+add-getting-led-configuration-from-dts.patch
